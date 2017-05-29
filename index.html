@@ -42,11 +42,136 @@
        </nav>
        <div id="portfolio" class="carousel slide" data-ride="carousel" data-interval="2000">
             <ol class="carousel-indicators">
-                <li> </li>
-                <li> </li>
-                <li> </li>
+                <li data-target="#portfolio" data-slide-to="0" class="active"> </li>
+                <li data-target="#portfolio" data-slide-to="1"> </li>
+                <li data-target="#portfolio" data-slide-to="2"> </li>
        	    </ol>
+       	    <div class="carousel-inner " role="listbox">
+       	    	<div class="item active">
+       	    	    <img src="images/hcb.jpg" alt="HTML, CSS & bootstrap"> </div>
+       	    	
+       	    	<div class="item"> 
+       	    	    <img src="images/iot.jpg" alt="Internet of Things"> </div>
+       	    	<div class="item"> 
+       	    	     <img src="images/git.jpg" alt="Git & Github"></div>
+       	    </div>
        </div>
+       <a href="#portfolio" role="button" class="left carousel-control" data-slide="prev"> 
+           <span class="glyphicon glyphicon-chevron-left" aria-hidden= "true"> </span>
+           <span class="sr-only"> previous </span>
+       </a>
+       <a href="#portfolio" role="button" class="right carousel-control" data-slide="next"> 
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> </span>
+            <span class="sr-only"> next </span>
+       </a>
+       <div id="profile" class="container-fluid bg-profile">
+           <div class=" cover-profile">
+                <img align="left" class="cover-image img-rounded" src="images/cover.png" alt="profile cover-image"/>
+                <img align="left" class="cover-profile-image thumbnail" src="images/om.jpg" alt="profile image" />
+                <div class="cover-profile-text">
+                	<h1> om</h1>
+                	<h3>web developer - HTML5, CSS3 & Bootstrap</h3>
+                	<ul class="nav nav-pills" role="tablist">
+                		<li role="presentation" class="active">
+                		    <a href="personal" aria-controls="home" role= "tab" data-toggle="pill">
+                		    	personal info
+                		    </a> 
+                		  </li>
+                		<li role="presentation">
+                		<a href="professional" aria-controls="profile" role="tab" data-toggle="pill">
+                			professional info
+                		</a> 
+                	  </li>
+                	</ul>
+                	<div class="tab-content mt-20">
+                		<div role="tabpanel" class="tab-pane active" id="personal">
+                		  <p>
+                		    i am om,i study in smartpathshala in 9th standard .iam 14 years old.i live in ghaziabad.my father's nae is mr monendra singh tomar he is an engineer, my mother' name is mrs amrita tomar she is a professor ,iam a fun loving who have dezires to become a software enginer.
+                		  </p>
+                	    </div>
+                		<div role="tabpanel" class="tab-pane" id="professional">                		
+                		  <p> 
+                		    i om is in class 9 is working on technologies such as html,css. my initial work was started at samrt patshala with the help of smart pathshala  an initiative by knight learning solutions. i have developed a responsive ewbsite with complete understandings.i can also develp other project also.
+                		  </p>
+                	    </div>                	   
+                	</div> 
+                </div>           	
+           </div>
+           <div id="contact" class="container-fluid">
+           	 <div class="row bg-contact">
+               <div class="col-md-6">
+               	<div class="contact mt-20 mb-20">
+               	  <form class="form-horizontal">
+               	  	<div class="text-center header"> send your message here </div>
+               	  	<div class="form-group">
+               	      <span class="col-md-1 col-md-offset-1 text-center">
+               	         <i class="fa fa-user formicon"></i> 
+               	      </span>
+               	      <div class="col-md-8">
+               	      	<input type="text" name="name" class="form-control" placeholder="enter your name">
+               	      </div> 
+               	  	</div>
+               	  	<div class="form-group">
+               	  		<span class="col-md-1 col-md-offset-1 text-center">
+               	  			<i class="fa fa-envelope formicon"></i>
+               	  		</span>
+               	  		<div class="col-md-8">
+               	  	    <input type="text" name="name" class="form-control" placeholder="enter your email">
+               	  	  </div>
+               	  	</div>
+               	  	<div class="form-group">
+               	  	   <span class="col-md-1 col-md-offset-1 text-center"> 
+               	  	     <i class="fa fa-phone formicon"></i>
+               	  	   </span>
+               	  	   <div class="col-md-8">
+               	  	   	 <input type="text" name="phone" class="form-control" placeholder="enter your phone number">
+               	  	   </div>
+               	  	</div>
+               	  	<div class="form-group">
+               	  		<span class="col-md-1 col-md-offset-1 text-center">
+               	  		  <i class="fa fa-question formicon"></i>
+               	  		</span>
+               	  		<div class="col-md-8">
+               	  			<textarea name="message " class="form-control" placeholder="enter your message for us here." rows="2"></textarea>
+               	  		</div>
+               	  	</div>
+               	  	<div class="form-group">
+               	  	  <div class="col-md-12 text-center">
+               	  	  	<button type="submit" class="btn btn-success btn-lg"> submit </button>
+               	  	  </div>
+               	  	</div>
+               	  </form>
+               	</div>
+               </div>
+               <div class="col-md-6">
+               	 <div class="contact mt-20 mb-20">
+               	   <div class="text-center header"> my adress </div>
+               	   <div class="text-center address-text">
+               	   	 signature homes, raj nagar ext. <br>
+               	   	 t-3,42 <br>
+               	   	 ghaziabad-201017 <br>
+               	   	 parevartan.omtomar@gmail.com <br>
+               	   	 <hr>
+               	   	 <div class="map">
+               	   	 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.523508097348!2d77.41136131457134!3d28.703896982389633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf0e5f2761207%3A0x24fa746fcf196de0!2sParevartan+School!5e0!3m2!1sen!2sin!4v1493959657484"  frameborder="0"  allowfullscreen></iframe>
+               	   </div>
+               	 </div>
+               </div>
+             </div>       	
+           </div>
+           <footer>
+           	  <div class="container-fluid">
+           	  	<div class="row">
+           	  	  <div class="col-xs-12 col-md-6 text-center"> copyright &copy; om 2017 </div>
+           	  	  <div class="col-xs-12 col-md-6 text-center">
+           	  	  	<a href="#"><i class="fa fa-facebook socialicon"></i></a>
+           	  	  	<a href="#"><i class="fa fa-twitter socialicon"></i></a>
+           	  	  	<a href="#"><i class="fa fa-linkedin socialicon"></i></a>
+           	  	  	<a href="#"> <i class="fa fa-github socialicon"></i></a>           	  	  
+           	  	  </div>
+           	  	</div>
+           	  </div>
+           </footer>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script> 
         <script type="text/javascript" src="js/script.js"></script>   	
