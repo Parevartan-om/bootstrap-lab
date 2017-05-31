@@ -118,5 +118,18 @@ footer{
 }
 
 @media (max-width:768px){
+	.cover-profile-image {
+        margin: -45px 10px 0px 25px;
+        z-index: 1;
+        width: 20%; 
+    }
+    .cover-profile-text>h1 {
+        font-weight: 700;
+    font-size:27px;
+    }
+    .cover-profile-text>h3 {
+        font-weight: 700;
+    font-size:20px;
+    }
 
 }
