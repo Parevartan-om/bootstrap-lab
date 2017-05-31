@@ -50,11 +50,12 @@ body{
 }
 
 .nav-pills>li >a {
-	color: #fff;
+	color: #ebf5fb 
+ ;
 }
 
 .nav-pills>li >a:hover{
-	color: #856046
+	color: #856046;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
@@ -86,7 +87,8 @@ body{
 }
 
 .address-text{
-	color: #fff;
+	color: #ebf5fb;
+ ;
 	font-size: 16px;
 }
 
@@ -103,7 +105,7 @@ hr{
 
 footer{
 	line-height: 1.4;
-	color: #9d9d9d;
+	color: #ebf5fb;
 	font-size: 18px;
 	background-color: #222;
 	padding: 25px 0px;
@@ -111,7 +113,7 @@ footer{
 
 .socialicon{
 	font-size: 20px;
-	color: #9d9d9d;
+	color: #ebf5fb;
 	padding-right: 5px;
 }
 
